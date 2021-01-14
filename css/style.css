@@ -1,0 +1,445 @@
+@import url('./colors.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5 !important;
+
+}
+section {
+    padding: 2em 0;
+}
+.header-area {
+    
+    background-color: #FFFFF4;
+}
+.my-nav {
+    background-color: #FFFFF4 !important;
+}
+.menu {
+    display: flex;
+    margin-left: 20em;
+   
+    
+}
+.menu li {
+    list-style: none;
+    margin-left: 20px;
+}
+.menu li a {
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo {
+    width: 350px;
+}
+
+/*///////////////  backpack moon css  ///////////// */
+.bp-moon-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+.bp-moon-texts {
+    
+    padding: 1em 1em;
+
+}
+.backpack-moon-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: #363958;
+    
+}
+.moon {
+    color: #76C27E;
+}
+.bp-para {
+    margin-top: 20px;
+    color: #3E3E3E;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn-first {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a1e59;
+    color: #ffffff;
+    border-radius: .5em;
+    transition: .5s ease;
+    margin-top: 30px;
+  
+}
+.btn-first:hover , .btn-m:hover {
+    background-color: #76C27E;
+    color: #2a1e59;
+}
+
+
+
+/********  details area css **********/
+.details-area {
+    
+    max-width: 1200px;
+    height: 52vh;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+   
+}
+.details {
+    padding-left: 5px;
+}
+.details-top {
+    width: 489px;
+    height: 135px;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+
+}
+.details-middle {
+    width: 489px;
+    height: 135px;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+
+}
+.details-bottom {
+    width: 489px;
+    height: 135px;
+    display: flex;
+   
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+
+}
+.d-icon {
+    margin-left: 10px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-icon img {
+    width: 78px;
+    height: 82px;
+}
+.d-text {
+    margin-left: 25px;
+   
+}
+.d-text h2 {
+    margin-top: 15px;
+    color: #363958;
+    font-weight: 700;
+    font-style: normal;
+}
+.d-text  p {
+    margin-top: 20px;
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.details-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.details-image img {
+    width: 600px;
+    height: 355px;
+}
+
+/* ///////////   
+          casual backpack section 
+                   ////////////// */
+.casual-backpack ,.travel-backpack {
+    max-width:1200px;
+    height: 75vh;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.casual-backpack-title {
+    
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #363958;
+    margin-bottom: 40px;
+
+}
+.casual-bp-row {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.backpack-items {
+    width: 370px;
+    height: 550px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    
+}
+
+.backpack-img {
+    width: 334px;
+    height: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.backpack-img img {
+    width: 266px;
+    height: 266px;
+}
+.bp-heading {
+    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #363958;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.bp-text {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.bp-prices {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.price {
+    color: #76C27E;
+    margin-top: 5px;
+    font-weight: bold; 
+}
+.btn-m {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a1e59;
+    color: #ffffff;
+    border-radius: .5em;
+    margin-left: 50px;
+    margin-right: 20px;
+    transition: .5s ease;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+.space {
+    margin-left: 7px;
+}
+
+/*    newsLetter area css    */
+.newsletter-area {
+    width: 100%;
+    height: 270px;
+    background-image: url('../Photos/pexels-ann-h-1765033.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.newsletter {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.nl-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.subs-text {
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+.newsletter-text {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.nl-input-mail {
+
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+    margin-top: 70px;
+
+}
+.send-btn {
+    
+    background-color: #fff;
+    padding: 15px 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: #3E3E3E;
+    font-weight: 500;
+    transition: .5s;
+}
+.send-btn:hover {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-text {
+    font-size: 20px;
+    color: #3E3E3E;
+    font-weight: 400;
+}
+/*************      responsive css  ***********/
+
+@media (max-width: 1055px) {
+    .casual-backpack,.travel-backpack {
+        margin-bottom: 30px;
+        height: auto;
+        
+          
+    }
+    .casual-bp-row {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        margin: 0 auto;
+    
+    }
+    .backpack-items {
+        margin-top: 30px;
+
+    }
+
+    .details-area  {
+
+       grid-template-columns: repeat(1,1fr);
+       height: auto;
+    }
+    .details-image {
+        margin-top: 40px;
+
+    }
+    .details-image img {
+        width: 90%;
+    }
+
+   /*  back pack moon area */
+    .bp-moon-area {
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+
+    }
+    .bp-moon-img img {
+        margin-top: 30px;
+    }
+
+    .newsletter {
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+    }
+    .nl-input {
+        margin: 0 auto;
+    }
+    .nl-input-mail {
+        margin: 20px auto;
+        
+    }
+   
+}
+@media (max-width: 755px) {
+    .casual-backpack {
+        height: auto;
+        
+    }
+    .casual-bp-row {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .backpack-items {
+        
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .casual-backpack-title {
+        text-align: center;
+    }
+}
